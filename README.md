@@ -186,46 +186,73 @@ NYC’s performance is diversified across categories rather than dependent on a 
 
 ---
 
-## 📖 Story — Sub-Category Profit & Loss Drivers
+## 📖 Story — Sub-Category Profit & Loss Drivers (Deep-Dive Analysis)
 
-This story moves from observation to explanation by isolating the economic behavior of individual sub-categories.
+This story represents the **analytical apex** of the project.  
+It isolates individual sub-categories to explain *how* and *why* revenue converts into either profit or loss.
 
 ---
 
-### Tables: High Sales, Persistent Losses
+### Tables — High Sales, Largest Losses
 
 ![Tables Loss Driver](visuals/story_tables_loss_driver.png)
 
-Despite strong revenue generation, **Tables** produce the largest absolute losses.
+At first glance, **Tables** appear commercially successful.  
+They generate **$157,807 in total sales**, ranking among the stronger revenue contributors.
 
-- Negative profit margin
-- Exceptionally high average discounting
-- High order volume combined with low average order value
+However, deeper analysis reveals a fundamentally broken economic model.
 
-**Finding:**  
-Losses are driven by pricing and discount structure rather than demand weakness.
+#### Root Cause Breakdown
+When all visuals are filtered to Tables:
+
+- **Profit Margin:** –10.2% (lowest among all sub-categories)
+- **Average Discount:** ~27.8%, the highest in the portfolio
+- **Order Count:** 256 orders (strong demand signal)
+- **Average Order Value:** ~$848 (relatively low)
+
+#### Interpretation
+Demand for Tables is **not the problem**.  
+The issue lies in **how that demand is monetized**.
+
+High order volume combined with aggressive discounting compresses margins to the point where each incremental sale deepens total losses.
+
+**Business Insight:**  
+Tables illustrate a classic case where revenue growth masks structural unprofitability.  
+Without pricing discipline or discount governance, scaling volume amplifies losses rather than correcting them.
 
 ---
 
-### Copiers: Low Volume, Exceptional Profitability
+### Copiers — Fewer Orders, Exceptional Profitability
 
 ![Copiers Profit Driver](visuals/story_copiers_profit_driver.png)
 
-Copiers demonstrate the inverse economic model.
+Copiers demonstrate the exact opposite economic profile.
 
-- Very high profit margins
-- Extremely high average order value
-- Moderate discounting
-- Low order volume with strong profit per transaction
+Despite lower transaction volume, they deliver **outsized profitability**.
 
-**Finding:**  
-Pricing power and order economics drive sustainable profitability.
+#### Profit Driver Breakdown
+Filtering the dashboard to Copiers reveals:
+
+- **Total Sales:** $146,659
+- **Total Profit:** $58,525
+- **Profit Margin:** 39.9% (highest across sub-categories)
+- **Order Count:** 47 orders
+- **Average Order Value:** ~$3,859
+- **Average Discount:** ~16.2%
+
+#### Interpretation
+Copiers succeed not through volume, but through **pricing power and order economics**.
+
+Each transaction carries sufficient margin to absorb discounting while still producing substantial profit.
+
+**Business Insight:**  
+Copiers represent a scalable, defensible profit engine — and a benchmark for evaluating other sub-categories.
 
 ---
 
 ## 📱 Multi-Device Accessibility
 
-The dashboards are designed for **desktop, tablet, and mobile consumption**, ensuring accessibility for executives across devices without compromising analytical integrity.
+All dashboards are designed for **desktop, tablet, and mobile consumption**, ensuring accessibility for executives across devices without compromising analytical integrity.
 
 ---
 
@@ -251,6 +278,6 @@ Open the file in **Tableau Desktop** or **Tableau Public** to explore:
 
 ## 🏁 Final Takeaway
 
-This project demonstrates a complete executive analytics workflow — from high-level performance monitoring to detailed root-cause diagnosis.
+This project demonstrates a complete executive analytics workflow — from performance monitoring to root-cause diagnosis.
 
-It illustrates how Tableau can be used not merely to report results, but to **explain business outcomes and support strategic decision-making**.
+It shows how Tableau can be used not just to visualize data, but to **explain business outcomes and inform strategic decisions**.
