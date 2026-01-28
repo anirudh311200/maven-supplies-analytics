@@ -2,212 +2,249 @@
 
 ## 🚀 Project Overview
 
-This project delivers an **executive-ready Tableau analytics solution** designed to uncover **what drives sales, profit, and loss** across regions, customers, and product sub-categories.
+This project delivers an **executive-grade Tableau analytics solution** built to answer a single, critical question:
 
-Built with a strong emphasis on **business reasoning over visual complexity**, the solution combines interactive dashboards and analytical stories to move beyond *what happened* and clearly explain **why it happened** — enabling confident, data-driven commercial decisions.
+**What truly drives sales, profit, and loss — and why?**
 
-> **Core focus:** Profitability drivers, discount impact, customer concentration, and sub-category economics.
+Rather than maximizing visual complexity, this solution prioritizes **clarity, causality, and business logic**. Interactive dashboards and guided stories move beyond surface-level reporting to explain the **economic mechanics** behind performance — enabling leaders to make confident, defensible decisions.
 
----
-
-## 🧠 Business Questions Answered
-
-This project was built to answer real executive-level questions:
-
-- Which cities and regions truly drive revenue and profit?
-- Are our best-selling products actually profitable?
-- How do discounts influence margins and losses?
-- Which sub-categories should be scaled, fixed, or reconsidered?
-- Are profits driven by volume, pricing power, or order economics?
+This project is intentionally minimalist in design and maximalist in insight.
 
 ---
 
-## 🛠️ Tools & Skills Demonstrated
+## 🧠 Executive Questions Answered
 
-- Tableau Desktop (Dashboards, Stories, Actions)
+- Which regions and cities genuinely drive profitable growth?
+- Are high sales translating into profit — or masking structural losses?
+- How do discounts affect margins across sub-categories?
+- Which products should be scaled, fixed, or deprioritized?
+- Is profitability driven by volume, pricing power, or order economics?
+
+---
+
+## 🛠️ Tools & Capabilities Demonstrated
+
+- Tableau Public (Desktop)
 - Advanced calculated fields & parameters
-- Conditional color encoding for financial interpretation
-- Executive KPI (BAN) design
-- Cross-filtering and interaction design
+- Conditional color logic for financial interpretation
+- Interactive dashboard actions & cross-filtering
+- Executive KPI (BAN) design principles
 - Business-first analytical storytelling
 
 ---
 
-## 📈 Dashboard 1 — Executive Performance Overview
+## 📈 Executive Dashboard — Performance at a Glance
 
 ![Executive Dashboard](visuals/executive_dashboard.png)
 
-### 🎯 Purpose  
-Provide leadership with a **single source of truth** for performance while retaining the ability to drill down instantly.
+### Purpose  
+Provide leadership with a **single, authoritative view** of performance — while preserving the ability to drill into details instantly.
 
-### Key Elements
-- KPI / BAN cards for YTD Sales, Profit %, Quantity, and Avg Discount  
-- Geographic sales & profit map highlighting city-level concentration  
-- Sales vs goal comparison by region  
-- Monthly sales (bars) and profit (line) trend  
-- Sales distribution by sub-category via treemap  
+### What This Dashboard Enables
+- Immediate visibility into YTD Sales, Profit %, Quantity, and Avg Discount
+- Identification of geographic concentration and risk at the city level
+- Target attainment analysis across regions
+- Trend recognition through monthly sales and profit behavior
+- Clear understanding of revenue mix by segment and sub-category
 
 ### Why It Matters  
-This dashboard answers *“How are we doing?”* in seconds — while enabling deeper exploration without clutter or cognitive overload.
+This dashboard answers *“How are we doing?”* in seconds — without sacrificing analytical depth.
 
 ---
 
-## 👥 Customer Intelligence
+## 🌍 Geographic Performance — Sales & Profit by City
 
-### Top Customers Overview
+![Sales & Profit by City](visuals/sales_profit_by_city_map.png)
 
-![Top Customers Overview](visuals/top_customers_overview.png)
+This map reveals **where revenue is created — and where profit is actually retained**.
 
-- Customers ranked by total sales
-- Segment-based color encoding
-- Region, state, and segment filters
-- Rich tooltips for instant customer profiling
+- Bubble size represents total sales by city
+- Color encodes profit percentage (loss → profit)
+- Tooltips expose city contribution to state-level sales
+- Filters allow rapid geographic isolation and comparison
+
+**Key Value:**  
+Surfaces cities that generate high revenue but destroy margin — a critical executive blind spot.
 
 ---
 
-### Top Customers by Sales (Threshold-Based)
+## 🎯 Sales vs Goal — Regional Accountability
+
+![Sales vs Goal by Region](visuals/sales_vs_goal_by_region.png)
+
+This view compares regional performance against predefined targets.
+
+- Bars represent actual sales
+- Vertical reference lines indicate goals
+- Color logic instantly highlights success vs underperformance
+
+**Key Value:**  
+Transforms targets from static numbers into visible accountability.
+
+---
+
+## 📉 Sales & Profit Trend — Monthly Dynamics
+
+![Sales & Profit by Month](visuals/sales_profit_by_month.png)
+
+A dual-axis view combining:
+- Sales (bars)
+- Profit (line)
+
+This chart exposes:
+- Seasonality effects
+- Divergence between revenue growth and profitability
+- Critical inflection points over time
+
+**Key Value:**  
+Ensures growth is evaluated through a profitability lens — not revenue alone.
+
+---
+
+## 🧩 Revenue Mix — Sales by Sub-Category
+
+![Sales by Sub-Category](visuals/sales_by_subcategory_treemap.png)
+
+A treemap segmented by category and sub-category highlights:
+- What products truly drive revenue
+- How contribution varies by segment
+- Where scale exists — and where it does not
+
+Selective labeling preserves clarity while keeping focus on material drivers.
+
+---
+
+## 👥 Customer Concentration — Top Customers by Sales
 
 ![Top Customers by Sales](visuals/top_customers_by_sales.png)
 
-- Dynamic **Top-N parameter** (default: Top 25)
-- Visual separation between **Top-Tier** and non-Top-Tier customers
-- Highlights revenue concentration and dependency risk
+This view identifies **revenue concentration risk** through a dynamic Top-N framework.
+
+- Default view shows Top 25 customers
+- Parameter allows executives to redefine “Top” instantly
+- Visual separation between Top-Tier and non-Top-Tier customers
+
+**Key Insight:**  
+A small number of customers contribute a disproportionate share of revenue — a critical dependency to monitor.
 
 ---
 
-## 📋 Ad-Hoc Sales Analysis
+## 📊 Dashboard — Drivers of Profit & Loss (Analytical Core)
 
-![Ad-Hoc Sales Table](visuals/adhoc_sales_analysis_table.png)
+![Drivers of Profit & Loss](visuals/drivers_of_profit_and_loss_dashboard.png)
 
-- Sub-category vs Year & Quarter breakdown
-- % contribution to total sales
-- Conditional color gradients for fast comparison
-- Enables temporal analysis without visual clutter
+This dashboard is the **engine of causality**.
 
----
+Rather than describing outcomes, it explains **why they occur** by connecting:
 
-## 📊 Dashboard 2 — Drivers of Profit & Loss
-
-![Drivers of Profit & Loss Dashboard](visuals/drivers_of_profit_and_loss_dashboard.png)
-
-### 🎯 Purpose  
-This dashboard represents the **analytical core** of the project.
-
-It is explicitly designed to explain **causality**, not just performance.
-
-### Core Analytical Views
-- Sub-Category Sales & Profit table  
-- Sales & Profitability by Sub-Category  
-- Profit Margin by Sub-Category  
-- Discount Impact Analysis  
-- Avg Order Value vs Order Count  
+- Sales & Profitability by Sub-Category
+- Profit Margin by Sub-Category
+- Discount Impact Analysis
+- Avg Order Value vs Order Count
 
 ### Interaction Design  
-All visuals are fully interconnected.  
-Selecting *any* bar, bubble, or row dynamically filters the remaining visuals — enabling rapid root-cause analysis without leaving context.
+Every visual is fully cross-filtered.  
+Selecting *any* element dynamically reshapes the remaining views — enabling instant root-cause diagnosis without losing context.
 
 ---
 
-## 📖 Story 1 — Top Cities & Sub-Categories
+## 📖 Story — Top Cities & Sub-Categories
 
-### Slide 1: NYC Drives the Most Sales
+### NYC: The Single Largest Sales Driver
 
 ![NYC Story](visuals/story_top_cities_nyc.png)
 
-- NYC contributes **$188K in YTD Sales**
-- Strong profitability at **23.4%**
-- Primary sub-category drivers:
-  - Furniture → Chairs  
-  - Office Supplies → Binders  
-  - Technology → Phones  
-- Both peak sales and profit occurred in **September 2018**
+- NYC leads national sales contribution
+- Strong profitability accompanies high volume
+- Sub-category leaders:
+  - Furniture → Chairs
+  - Office Supplies → Binders
+  - Technology → Phones
+- Peak sales and profit occurred simultaneously in September 2018
+
+**Insight:**  
+NYC’s dominance is broad-based, not dependent on a single product line.
 
 ---
 
-### Slide 2: Western Region Dominance
+### Western Region: Sustained Regional Leadership
 
 ![West Region Story](visuals/story_top_cities_west_region.png)
 
-- Western region leads with **$396K YTD Sales**
-- Strong and balanced profitability across segments
-- Sub-category leadership differs from NYC:
-  - Furniture → Tables  
-  - Office Supplies → Binders  
-  - Technology → Phones  
-- Demonstrates how geographic context changes product economics
+- The West outperforms all regions in YTD sales
+- Product leadership differs materially from NYC
+- Demonstrates how **geography reshapes product economics**
+
+**Insight:**  
+What wins in one region may not win in another — regional strategy matters.
 
 ---
 
-### Slide 3: Chairs as a Sales Powerhouse
+### Chairs: A High-Volume Sales Engine
 
 ![Chairs Story](visuals/story_top_cities_chairs.png)
 
-- Chairs generated **$91K in sales in September 2018 alone**
+- Chairs generated $91K in sales in September 2018 alone
 - High-volume driver with moderate margins
-- Reinforces the importance of combining category and time-based analysis
+- Reinforces the need to balance scale with profitability discipline
 
 ---
 
-## 📖 Story 2 — Sub-Category Profit & Loss Drivers (Core Insight)
+## 📖 Story — Sub-Category Profit & Loss Drivers (Critical Insight)
 
-This story represents the **analytical peak** of the project — explaining *why* certain sub-categories succeed while others fail.
+This story represents the **analytical peak** of the project — moving from observation to explanation.
 
 ---
 
-### Slide 1: Tables — High Sales, Largest Losses
+### Tables: Strong Sales, Structural Losses
 
 ![Tables Loss Driver](visuals/story_tables_loss_driver.png)
 
-Despite generating **$157,807 in sales**, the **Tables** sub-category produces the **largest absolute loss** at **–$16,140**.
+Despite generating substantial revenue, **Tables** produce the **largest absolute loss**.
 
-#### Root Cause Breakdown
-Filtering all visuals to Tables reveals:
+#### Root Cause Analysis
+- Negative profit margin (–10.2%)
+- Exceptionally high average discount (~27.8%)
+- High order volume combined with low average order value
 
-- **Profit Margin:** –10.2% (lowest of all sub-categories)
-- **Average Discount:** ~27.8%, severely eroding margins
-- **Order Count:** High (256 orders)
-- **Avg Order Value:** Low ($848)
+**Conclusion:**  
+Losses are driven by **pricing and discount strategy**, not demand.
 
-#### Key Insight  
-Losses are **not driven by weak demand**, but by **pricing and discount strategy**.  
-High volume combined with aggressive discounting converts sales into structural losses.
-
-> **Business implication:** Pricing discipline and discount control must precede further volume growth.
+> High volume without pricing discipline converts revenue into recurring loss.
 
 ---
 
-### Slide 2: Copiers — Fewer Orders, Exceptional Profitability
+### Copiers: Low Volume, Exceptional Profitability
 
 ![Copiers Profit Driver](visuals/story_copiers_profit_driver.png)
 
-Copiers present the complete inverse of Tables.
+Copiers demonstrate the inverse economic model.
 
-#### Profit Drivers
-- **Total Sales:** $146,659  
-- **Profit:** $58,525  
-- **Profit Margin:** 39.9%  
-- **Order Count:** Low (47 orders)  
-- **Avg Order Value:** Extremely high ($3,859)  
-- **Discount:** Moderate (~16.2%)
+- Extremely high profit margin (39.9%)
+- Very high average order value
+- Moderate discounting
+- Low order count, high profitability per transaction
 
-#### Key Insight  
-Profitability is driven by **pricing power and order economics**, not order volume.
-
-> **Business implication:** Copiers represent a category worth protecting, expanding, and learning from.
+**Conclusion:**  
+Pricing power and order economics — not volume — drive sustainable profit.
 
 ---
 
-## 🧩 Why This Project Stands Out
+## 🧠 Why This Project Stands Out
 
-- Prioritizes **business logic over visual density**
-- Demonstrates **causality**, not correlation
-- Uses Tableau as a **decision-making tool**, not a charting tool
-- Designed around how executives actually consume analytics
+- Designed for **executive decision-making**, not dashboard tourism
+- Explains **why outcomes occur**, not just what occurred
+- Uses Tableau as a **business reasoning platform**
+- Prioritizes clarity, restraint, and analytical depth
 
 ---
 
-## 🏁 Conclusion
+## 🏁 Final Takeaway
 
-This Tableau project represents a **complete analytical workflow** — from executive overview to root-cause diagnosis — and demonstrates how interactive BI can be used to **explain outcomes, not just report them**.
+This project demonstrates a complete analytical workflow:
+from **executive overview**, to **performance diagnosis**, to **root-cause explanation**.
 
-It stands as a **capstone-level portfolio project**, intentionally designed to match — and surpass — real-world business analytics expectations.
+It shows how thoughtfully designed Tableau solutions can move beyond reporting — and become tools for **strategic judgment**.
+
+Perfection here was not achieved by adding more visuals —  
+but by **removing everything that didn’t earn its place**.
